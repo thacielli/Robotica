@@ -1,0 +1,59 @@
+body{
+	background-color: #E0FFFF;
+}
+header{
+	background-color:#B0E0E6;
+	font-family: Roboto Slab;
+	font-size: 34px;
+	line-height: 34px;
+	border: solid #E0FFFF;
+}
+a{
+	text-decoration:none;
+	color: #000000;
+	line-height: 1.5;
+	font-weight: bold;
+}
+a:visited {
+	color: black;
+}
+a:hover {
+	color: mediumblue;
+}
+h1{
+	text-align: center;
+}
+img{
+	width: 160px;
+	float:left;
+}
+.img2{
+	width: 157px;
+	float:right;
+}
+#list{
+	text-align: center;
+	padding: 0 60px;
+	font-size: 18px;
+}
+.art{
+	font-family: Roboto Slab;
+	font-size: 23px;
+	padding: 0 60px;
+	
+}
+li{
+  list-style: unset;
+  padding: 18px;
+}
+p{
+	font-size: 16px;
+	display: contents;
+	line-height: 1;
+}
+.fin{
+	font-family: Roboto Slab;
+	font-size: 8px;
+	text-align: center;
+	display: block;
+}
