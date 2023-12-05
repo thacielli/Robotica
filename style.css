@@ -84,3 +84,26 @@ footer{
 		line-height: 0px;
 	}
 }
+@media screen and (max-width: 980px){
+	body{
+		margin:0px;
+		padding:0px;
+		direction: rtl;
+		
+	}
+	.container{
+		padding: 0 0px;
+		min-width: 0;
+		display:inline-table;
+	}
+	#list {
+	    	padding: 0 0px; 
+	    	font-size: 20px; 
+	}
+	p {
+	    	line-height: 0px; 
+	}
+	footer{
+		line-height: 0px;
+	}
+}
