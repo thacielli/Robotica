@@ -65,6 +65,58 @@ p{
 	text-align: center;
 	display: block;
 }
+@media screen and (max-width: 480px){
+  header{
+    font-size: 25px;
+    line-height: 36px;
+    border: solid #E0FFFF;
+    text-align: center;
+  }
+  .img1 {
+    width: 87px;
+    float: left;
+  }
+  .img2 {
+    width: 88px;
+    float: right;
+  }
+  #list {
+    padding: 0 0px;
+  }
+  li {
+    display: unset;
+  }
+  p {
+     padding: 6px;  
+  }
+}
+@media screen and (max-width: 980px){
+  header{
+    font-size: 25px;
+    line-height: 36px;
+    border: solid #E0FFFF;
+    text-align: center;
+  }
+  .img1 {
+    width: 87px;
+    float: left;
+  }
+  .img2 {
+    width: 88px;
+    float: right;
+  }
+  #list {
+    padding: 0 0px;
+  }
+  li {
+    display: unset;
+  }
+  p {
+     padding: 6px;  
+  }
+}
+
+
 
 
 
