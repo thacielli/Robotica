@@ -43,8 +43,9 @@ p{
 	font-family: Bree Serif;
 	font-size: 17px;
 	line-height: 26px;
-	animation-duration: 3s;
+	animation-duration: 5s;
  	animation-name: slidein;
+	animation-composition: accumulate;
 }
 @keyframes slidein {
   from {
