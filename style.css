@@ -43,6 +43,19 @@ p{
 	font-family: Bree Serif;
 	font-size: 17px;
 	line-height: 26px;
+	animation-duration: 3s;
+ 	animation-name: slidein;
+}
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
 }
 #cont{
 	padding: 0 110px;
@@ -61,22 +74,7 @@ footer{
 	font-size: 8px;	
 	line-height: 40px;
 }
-p {
-  animation-duration: 3s;
-  animation-name: slidein;
-}
 
-@keyframes slidein {
-  from {
-    margin-left: 100%;
-    width: 300%;
-  }
-
-  to {
-    margin-left: 0%;
-    width: 100%;
-  }
-}
 @media screen and (max-width: 480px){
   body{
     margin: 0px;
